@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    color: #ffffff;
+    text-shadow: 3px 2px #000000;
+}
+
+header{
+    background: url(../img/bg_2.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+
+h1{
+    margin: 0 ;
+    text-align: center;
+    color: #ffd87d;
+    font-size: 5em;
+    padding: 200px 0 0;
+}
+
+h2{
+    margin: 0;
+    text-align: center;
+    color: #ffd87d;
+    font-size: 6em;
+    padding: 50px;
+}
+
+h3{
+    margin: 0;
+    text-align: center;
+    font-size: 3em;
+    padding: 50px;
+}
+
+ul{
+    list-style-type: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+}
+
+li{
+    font-size: 1.3em;
+    padding: 5px 50px;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #cccccc;
+}
+
+img:hover{
+    box-shadow: 0 0 20px 20px #66666666;
+}
+
+
+#praise{
+    background: url(../img/bg_3.jpg) center/cover no-repeat;
+    height: 3196px;
+}
+
+section#praise a{
+    text-shadow: none;
+}
+
+#book{
+    background: url(../img/bg_1.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.quote{
+    margin: 100px auto;
+    width: 850px;
+    font-size: 3em;
+    text-align: center;
+    /* background: #00000099;
+    border-radius: 30px;
+    padding: 50px; */
+}
+
+.author{
+    color: #ffd87d;
+}
+
+.book-name{
+    font-style: italic;
+    color: #ffd87d;
+    text-transform: uppercase;
+}
+
+.grid-container{
+    margin:  0 auto;
+    width: 90%;
+    display: grid;
+    font-size: 50px;
+    /* border:  1px solid white; */
+}
+
+.grid-container img{
+    width: 55%;
+}
+
+.grid-item-l{
+    grid-column: 1;
+    padding: 70px 50px 70px 100px;
+    text-align: right;
+}
+
+.grid-item-r{
+    grid-column: 2;
+    padding: 70px 100px 70px 50px;
+}
+
+.grid-text{
+    margin-top: 100px;
+}
+
+.btn{
+    margin: 30px 20px 0 0;
+    padding: 20px 30px;
+    display: inline-block;
+    background: #000000aa;
+    border: 2px solid #ffffffaa;
+    border-radius: 20px;
+    font-size: 0.7em;
+}
